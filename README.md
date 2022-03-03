@@ -2,16 +2,16 @@
 Sample app and runtime resource overlay for android 31
 
 ## Use case
-Install standard app (without elevated system permissions) and change it resources using separate RRO APK (with elevated root permission). 
-Install and activate RRO in Android OS runtime, without messing with build time RROs. There is no need to change anything in Android OS, you can do it with standard system image (without Google play) on emulator
+Install standard app (without elevated system permissions) and change it's resources using separate RRO APK (with elevated root permission). 
+Install and activate RRO in Android OS runtime, without messing with build time static RROs. There is no need to change anything in Android OS, you can do it with standard system image (without Google play) on emulator
 
 ## How to
 ### Prepare emulator
-* Create AVD virtual device with Android 31 target image. Choose a version without Google Play, otherwise you will not be able to grant root permissions
+* Create an AVD virtual device with Android 31 target image. Choose a version without Google Play, otherwise you will not be able to grant root permissions
 * Run emulator from command line: ``emulator -avd {EMU_NAME} -writable-system``, for example ``emulator -avd Pixel_5_API_31 -writable-system``
 
 ### Install Target App
-* Build android app found in MyTarget directory
+* Build an app from MyTarget directory
 * Install it on your device, the same way you always do
 
 ### Build overlay
