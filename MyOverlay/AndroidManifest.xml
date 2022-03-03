@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myoverlay">
+
+    <application android:hasCode="false" />
+    <overlay android:targetPackage="com.example.mytarget" android:resourcesMap="@xml/overlays" />
+
+</manifest>

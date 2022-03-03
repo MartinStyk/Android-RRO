@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item target="string/app_name" value="My overlay" />
+    <item target="color/primary" value="@color/primary" />
+    <item target="style/IconStyle" value="@style/IconAlternativeStyle" />
+</overlay>
